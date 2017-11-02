@@ -188,8 +188,8 @@ p {
   margin-left: 1px;
   padding: 195px 1px;
   border-bottom: 4px solid #69b9ff;
-  background-image: -webkit-radial-gradient(circle farthest-corner at 50% 50%, rgba(46, 157, 255, .5), rgba(46, 157, 255, .22)), url('../images/social-34.svg');
-  background-image: radial-gradient(circle farthest-corner at 50% 50%, rgba(46, 157, 255, .5), rgba(46, 157, 255, .22)), url('../images/social-34.svg');
+  background-image: -webkit-radial-gradient(circle farthest-corner at 50% 50%, rgba(46, 157, 255, .5), rgba(46, 157, 255, .22)), url("static/img/social-34.svg" );
+  background-image: radial-gradient(circle farthest-corner at 50% 50%, rgba(46, 157, 255, .5), rgba(46, 157, 255, .22)), url("static/img/social-34.svg" );
   background-position: 0px 0px, 50% 50%;
   background-size: auto, 15px;
   text-align: center;

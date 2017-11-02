@@ -76,5 +76,20 @@ class Place(object):
 
     return places
 
+  class Restaurant(db.Model):
+ 
+    __tablename__ = "restaurants"
+ 
+    id = db.Column(db.Integer, primary_key=True)
+    restaurant_name = db.Column(db.String, nullable=False)
+    restaurant_description = db.Column(db.String, nullable=False)
+ 
+    def __init__(self, title, description):
+        self.restaurant_name = title
+        self.restaurant_description = description
+ 
+    def __repr__(self):
+        return '<title {}'.format(self.name)
+
 
 #CHECKED
