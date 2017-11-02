@@ -1,21 +1,35 @@
-{% extends "layout.html" %}
+
+{% extends 'layout.html' %}
 
 {% block content %}
-  <main class="hero-section">
-    <div class="container">
-      
-      <div class="section-content">
-        <h2>Discover places near you.</h2>
-        <a href="{{ url_for('signup') }}" class="btn-primary">Sign up</a>
-        <a href="{{ url_for('about') }}" class="btn-secondary">Learn more</a> 
-      </div>
 
-      <div class="section-device">
-        <img src="static/img/device.png">
+    
+      <div class="centered hero-section">
+        <div data-ix="new-interaction" class="w-container"><img src="static/img/social-34.svg" width="171" data-w-id="ebacd188-097c-c26e-b7c0-ea4f579498b7" class="image">
+          <h1 data-ix="fade-in-bottom-page-loads" class="hero-heading"><br><br>This is flaver</h1>
+          <div data-ix="fade-in-bottom-page-loads" class="hero-subheading">a new way to support local</div>
+          <div data-ix="fade-in-bottom-page-loads"><a href="{{ url_for('signup') }}" class="all-caps hollow-button">SIGN UP</a><a href="{{ url_for('about') }}" class="all-caps hollow-button">Learn more</a></div>
+        </div>
       </div>
-      
-      <div class="clearfix"></div>
-
-    </div>
-  </main>
+      <div data-autoplay="true" data-loop="true" data-wf-ignore="true" data-poster-url="static/videos/624044496-poster-00001.jpg" data-video-urls="static/videos/624044496-transcode.webm,videos/624044496-transcode.mp4" class="w-background-video w-background-video-atom w-hidden-small w-hidden-tiny"><video autoplay="" loop="" style="background-image:url(&quot;videos/624044496-poster-00001.jpg&quot;);" data-wf-ignore="true"><source src="static/videos/624044496-transcode.webm" data-wf-ignore="true"><source src="static/videos/624044496-transcode.mp4" data-wf-ignore="true"></video></div>
+      <div class="footer">
+        <div class="w-container">
+          <div class="w-row">
+            <div class="spc w-col w-col-4">
+              <h5>about FLAVER</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
+            </div>
+            <div class="spc w-col w-col-4">
+              <h5>useful links</h5><a href="#" class="footer-link">Phasellus gravida semper nisi</a><a href="#" class="footer-link">Suspendisse nisl elit</a><a href="#" class="footer-link">Dellentesque habitant morbi</a><a href="#" class="footer-link">Etiam sollicitudin ipsum</a></div>
+            <div class="w-col w-col-4">
+              <h5>social</h5>
+              <div class="footer-link-wrapper w-clearfix"><img src="static/img/social-18.svg" width="20" class="info-icon"><a href="#" class="footer-link with-icon">Twitter</a></div>
+              <div class="footer-link-wrapper w-clearfix"><img src="static/img/social-03.svg" width="20" class="info-icon"><a href="#" class="footer-link with-icon">Facebook</a></div>
+              <div class="footer-link-wrapper w-clearfix"><img src="static/img/social-11.svg" width="20" class="info-icon"><a href="#" class="footer-link with-icon">Pinterest</a></div>
+              <div class="footer-link-wrapper w-clearfix"><img src="static/img/social-06.svg" width="20" class="info-icon"><a href="#" class="footer-link with-icon">Google</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+     
 {% endblock %}
