@@ -26,5 +26,5 @@ six==1.9.0
 SQLAlchemy==1.0.8
 urllib3==1.22
 urlopen==1.0.0
-Werkzeug==0.10.4
+Werkzeug==0.15.3
 WTForms==2.0.2
