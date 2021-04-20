@@ -17,7 +17,7 @@ lxml==4.1.0
 MarkupSafe==0.23
 PasteDeploy==1.5.2
 psycopg2==2.7.3.2
-py==1.4.34
+py==1.10.0
 pytest==3.2.3
 pytest-runner==3.0
 ratelim==0.1.6
